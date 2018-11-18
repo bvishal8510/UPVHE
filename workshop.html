@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Login</title>
+    <title>Create Workshop</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -12,7 +12,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-4">
                 <h2>Workshop Creation</h2>
                 <form>
                     <div class="form-group">
@@ -22,6 +22,10 @@
                     <div class="form-group">
                         <label>Duration of workshop</label>
                         <input class="form-control" placeholder="Enter duration">
+                    </div>
+                    <div class="form-group">
+                        <label>Enter the starting date</label>
+                        <input class="form-control" placeholder="Enter starting date">
                     </div>
                     <div class="form-group">
                         <label>Referral Number</label>
@@ -36,6 +40,14 @@
                         </select>
                     </div>
                     <div class="form-group">
+                        <label>For Whom</label>
+                        <select class="form-control">
+                            <option>Faculty</option>
+                            <option>Students</option>
+                            <option>Staff</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
                         <label>level of Workshop</label>
                         <select class="form-control">
                             <option>Refresher</option>
@@ -45,7 +57,7 @@
                             <option>PSL 5</option>
                         </select>
                     </div>
-                    <button class="btn btn-default"> Submit </button>
+                    <a href="./choose.html" class="btn btn-default"> Submit </a>
                 </form>
             </div>
         </div>
